@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import junit.framework.Assert;
 
-public class SaqueTestUnitario {
+public class SaqueUnitarioTest {
 	
 	@Test
 	public void verificarSenhaValida() {

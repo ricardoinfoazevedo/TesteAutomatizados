@@ -8,7 +8,7 @@ public class SaqueIntegracaoTest {
 	
 	@Test
 	public void verificarAtualizacaoSaldoValida() {
-		System.out.println("inicio verificarAtualizacaoSaldoValida");
+		System.out.println("----------------> inicio verificarAtualizacaoSaldoValida <----------------");
 		Saque saque = new Saque();
 		
 		int novoSaldo = saque.debitarValor(50);
@@ -17,12 +17,12 @@ public class SaqueIntegracaoTest {
 
 
 		Assert.assertEquals(true, atualizou);
-		System.out.println("fim verificarAtualizacaoSaldoValida");
+		System.out.println("----------------> fim verificarAtualizacaoSaldoValida <----------------");
 	}
 	
 	@Test
 	public void verificarAtualizacaoSaldoInValida() {
-		System.out.println("inicio verificarAtualizacaoSaldoInValida");
+		System.out.println("----------------> inicio verificarAtualizacaoSaldoInValida <----------------");
 		Saque saque = new Saque();
 		
 		int novoSaldo = saque.debitarValor(50);
@@ -30,7 +30,7 @@ public class SaqueIntegracaoTest {
 		boolean atualizou = saque.atualizarSaldo(novoSaldo);
 		
 		Assert.assertEquals(false, atualizou);
-		System.out.println("fim verificarAtualizacaoSaldoInValida");
+		System.out.println("----------------> fim verificarAtualizacaoSaldoInValida <----------------");
 	}
 	
 	

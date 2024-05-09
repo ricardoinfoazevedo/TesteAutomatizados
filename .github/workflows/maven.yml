@@ -15,7 +15,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  buildar e testar:
+  buildar_testar:
 
     runs-on: ubuntu-latest
 
